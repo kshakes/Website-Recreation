@@ -29,6 +29,7 @@ h1{
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 1400px;
 }
 
 .pricing-box, .pricing-box-large{
