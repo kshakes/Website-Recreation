@@ -86,6 +86,22 @@
                         <li style="font-weight: bold;">Custom license</li>
                     </ul>
                 </div>
+                <button id="show-cat-button" onclick="showCat()">Surprise!</button>
+                <div id="secret-cat-container" style="display: none;">
+                    <img src="https://media.tenor.com/VfNHIfcyAIMAAAAM/watch-a-fat-cat-dance-an-american-dance-girlfriend.gif" rel="dancing cat">
+                </div>
+
+                <script>
+                    document.getElementById('show-cat-button').addEventListener('click', function() {
+                    var image = document.getElementById('secret-cat-container');
+                    if (image.style.display === 'none') {
+                        image.style.display = 'flex';
+                    } else {
+                        image.style.display = 'none';
+                    }
+                });
+                </script>
+
             </div>
         </div>
     </body>
